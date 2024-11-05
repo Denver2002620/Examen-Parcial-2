@@ -1,6 +1,6 @@
 #include<iostream>
 #include "ejercicio2.h"
-int ejercicio2()
+int main()
     {
   int a;//declarar el variable
   std::cout<<"ingressa un numero de 1 a 7 porfavor";//pedir al utilizador de ingressar un numero
