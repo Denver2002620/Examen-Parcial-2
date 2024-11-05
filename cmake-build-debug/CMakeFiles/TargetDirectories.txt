@@ -1,4 +1,6 @@
 C:/Users/Usuario/Documents/GitHub/Examen-Parcial-2/cmake-build-debug/CMakeFiles/Examen-Parcial-2-1.dir
 C:/Users/Usuario/Documents/GitHub/Examen-Parcial-2/cmake-build-debug/CMakeFiles/Examen-Parcial-2-2.dir
+C:/Users/Usuario/Documents/GitHub/Examen-Parcial-2/cmake-build-debug/CMakeFiles/Examen-Parcial-2-3.dir
+C:/Users/Usuario/Documents/GitHub/Examen-Parcial-2/cmake-build-debug/CMakeFiles/Examen-Parcial-2-4.dir
 C:/Users/Usuario/Documents/GitHub/Examen-Parcial-2/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Usuario/Documents/GitHub/Examen-Parcial-2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

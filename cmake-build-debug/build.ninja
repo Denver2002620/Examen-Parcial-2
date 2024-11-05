@@ -106,6 +106,72 @@ build Examen-Parcial-2-2.exe: CXX_EXECUTABLE_LINKER__Examen-Parcial-2-2_Debug CM
   TARGET_IMPLIB = libExamen-Parcial-2-2.dll.a
   TARGET_PDB = Examen-Parcial-2-2.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Examen-Parcial-2-3
+
+
+#############################################
+# Order-only phony target for Examen-Parcial-2-3
+
+build cmake_object_order_depends_target_Examen-Parcial-2-3: phony || .
+
+build CMakeFiles/Examen-Parcial-2-3.dir/ejercicio3/ejercicio3.cpp.obj: CXX_COMPILER__Examen-Parcial-2-3_unscanned_Debug C$:/Users/Usuario/Documents/GitHub/Examen-Parcial-2/ejercicio3/ejercicio3.cpp || cmake_object_order_depends_target_Examen-Parcial-2-3
+  DEP_FILE = CMakeFiles\Examen-Parcial-2-3.dir\ejercicio3\ejercicio3.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Examen-Parcial-2-3.dir
+  OBJECT_FILE_DIR = CMakeFiles\Examen-Parcial-2-3.dir\ejercicio3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Examen-Parcial-2-3
+
+
+#############################################
+# Link the executable Examen-Parcial-2-3.exe
+
+build Examen-Parcial-2-3.exe: CXX_EXECUTABLE_LINKER__Examen-Parcial-2-3_Debug CMakeFiles/Examen-Parcial-2-3.dir/ejercicio3/ejercicio3.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Examen-Parcial-2-3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Examen-Parcial-2-3.exe
+  TARGET_IMPLIB = libExamen-Parcial-2-3.dll.a
+  TARGET_PDB = Examen-Parcial-2-3.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Examen-Parcial-2-4
+
+
+#############################################
+# Order-only phony target for Examen-Parcial-2-4
+
+build cmake_object_order_depends_target_Examen-Parcial-2-4: phony || .
+
+build CMakeFiles/Examen-Parcial-2-4.dir/ejercicio4/ejercicio4.cpp.obj: CXX_COMPILER__Examen-Parcial-2-4_unscanned_Debug C$:/Users/Usuario/Documents/GitHub/Examen-Parcial-2/ejercicio4/ejercicio4.cpp || cmake_object_order_depends_target_Examen-Parcial-2-4
+  DEP_FILE = CMakeFiles\Examen-Parcial-2-4.dir\ejercicio4\ejercicio4.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Examen-Parcial-2-4.dir
+  OBJECT_FILE_DIR = CMakeFiles\Examen-Parcial-2-4.dir\ejercicio4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Examen-Parcial-2-4
+
+
+#############################################
+# Link the executable Examen-Parcial-2-4.exe
+
+build Examen-Parcial-2-4.exe: CXX_EXECUTABLE_LINKER__Examen-Parcial-2-4_Debug CMakeFiles/Examen-Parcial-2-4.dir/ejercicio4/ejercicio4.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Examen-Parcial-2-4.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Examen-Parcial-2-4.exe
+  TARGET_IMPLIB = libExamen-Parcial-2-4.dll.a
+  TARGET_PDB = Examen-Parcial-2-4.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -136,6 +202,10 @@ build Examen-Parcial-2-1: phony Examen-Parcial-2-1.exe
 
 build Examen-Parcial-2-2: phony Examen-Parcial-2-2.exe
 
+build Examen-Parcial-2-3: phony Examen-Parcial-2-3.exe
+
+build Examen-Parcial-2-4: phony Examen-Parcial-2-4.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -144,7 +214,7 @@ build Examen-Parcial-2-2: phony Examen-Parcial-2-2.exe
 #############################################
 # Folder: C:/Users/Usuario/Documents/GitHub/Examen-Parcial-2/cmake-build-debug
 
-build all: phony Examen-Parcial-2-1.exe Examen-Parcial-2-2.exe
+build all: phony Examen-Parcial-2-1.exe Examen-Parcial-2-2.exe Examen-Parcial-2-3.exe Examen-Parcial-2-4.exe
 
 # =============================================================================
 # Built-in targets
