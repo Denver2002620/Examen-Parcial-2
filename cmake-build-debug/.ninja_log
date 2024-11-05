@@ -1,0 +1,6 @@
+# ninja log v6
+3	237	7525039678905291	CMakeFiles/Examen-Parcial-2.dir/main.cpp.obj	fa6eed16e1500c87
+237	285	7525039681240842	Examen-Parcial-2.exe	7bd2418debbbf9ed
+15	596	7525040324154766	build.ninja	3fff4d22ca1c59f
+12	237	7525040325744761	CMakeFiles/Examen-Parcial-2.dir/ejercicio_1/main.cpp.obj	c5aa094b595ccc71
+237	288	7525040327993872	Examen-Parcial-2.exe	18282fb9d2f76c8a
