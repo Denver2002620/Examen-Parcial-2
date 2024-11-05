@@ -7,10 +7,6 @@
 
 
 
-class ejercicio3 {
-
-};
-
 
 
 #endif //EJERCICIO3_H
